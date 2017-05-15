@@ -105,3 +105,6 @@
     
     $partOfData = $parser->load()->parseAll()->getData();
 ```
+
+##### ToDO
+1. Добавить SAX парсер, для уменьшения потребления RAM памяти.
