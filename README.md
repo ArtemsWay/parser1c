@@ -16,7 +16,7 @@
 ],
 "require": {
 
-    "artemsway/parser1c": "dev-master#2.07"
+    "artemsway/parser1c": "v2.07.x-dev"
 },
 ```
 
