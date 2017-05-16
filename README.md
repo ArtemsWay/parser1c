@@ -16,7 +16,7 @@
 ],
 "require": {
 
-    "artemsway/commerceml": "dev-master#2.07"
+    "artemsway/parser1c": "dev-master#2.07"
 },
 ```
 
