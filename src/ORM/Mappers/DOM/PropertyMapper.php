@@ -45,7 +45,7 @@ class PropertyMapper extends DOMMapper
 
         $property->type = $this->getType();
 
-        if ($property->type === 'vocabulary') {
+        if ($property->type === 'voc') {
             $property->values = $this->getValues();
         }
 
