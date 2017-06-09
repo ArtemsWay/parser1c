@@ -29,6 +29,11 @@ class Offer extends Domain
     public $sku;
 
     /**
+     * @var boolean
+     */
+    public $deleted;
+
+    /**
      * @var array|null
      */
     public $unit;
