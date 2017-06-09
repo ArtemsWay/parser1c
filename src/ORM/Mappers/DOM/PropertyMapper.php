@@ -13,9 +13,9 @@ class PropertyMapper extends DOMMapper
      * @var array
      */
     protected $types = [
-        'Справочник' => 'vocabulary',
-        'Строка' => 'string',
-        'Число' => 'integer'
+        'Справочник' => 'voc',
+        'Строка' => 'str',
+        'Число' => 'int'
     ];
 
     /**
