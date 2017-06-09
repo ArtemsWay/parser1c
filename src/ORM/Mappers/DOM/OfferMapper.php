@@ -44,8 +44,6 @@ class OfferMapper extends DOMMapper
             true
         );
 
-        $offer->deleted = $this->isDeleted();
-
         $offer->unit = $this->getUnit();
 
         $offer->prices = $this->getPrices();
@@ -183,21 +181,5 @@ class OfferMapper extends DOMMapper
         }
 
         return $values;
-    }
-
-    /**
-     * Проверяем удален ли продукт.
-     *
-     * @return bool
-     */
-    protected function isDeleted()
-    {
-        $status = $this->element->getAttribute('Статус');
-
-        if (!empty($status) && $status == 'Удален') {
-            return true;
-        }
-
-        return false;
     }
 }
