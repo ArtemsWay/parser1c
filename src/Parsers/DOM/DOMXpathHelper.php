@@ -34,7 +34,7 @@ class DOMXpathHelper
 
         $string = static::evaluate($document, $expression, $contextnode);
 
-        if ($strict && empty($string)) {
+        if ($strict && (empty($string) && $string !== '0')) {
             throw new \InvalidArgumentException("Expression [$expression] returned empty string.");
         }
 
